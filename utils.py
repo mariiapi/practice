@@ -22,3 +22,8 @@ def is_prime(n):
             return False
         i += 6
     return True
+
+def divided_by_5(n):
+    if n%5 == 0:
+        return "Is divided by 5"
+    return "Is not divided by 5"
