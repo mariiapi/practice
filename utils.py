@@ -4,6 +4,11 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
+def divided_by_5(n):
+    if n%5 == 0:
+        return "Is divided by 5"
+    return "Is not divided by 5"
+
 def is_prime(n):
     # Check if the number is less than 2 (not prime)
     if n <= 1:
@@ -22,3 +27,4 @@ def is_prime(n):
             return False
         i += 6
     return True
+
